@@ -123,7 +123,7 @@ img{
     width: 160px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 445px;
+    bottom: 486px;
     z-index: 10;
 }
 
@@ -173,7 +173,7 @@ the website, in dark theme
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .section{
-  padding: 10rem 1rem 4rem;
+  padding: 10rem 2rem 4rem;
 }
 
 .section__title,
@@ -347,7 +347,7 @@ the website, in dark theme
   line-height: 140%;
   margin-bottom: var(--mb-1);
   margin-top: 3rem;
-  margin-right: -1rem;
+  margin-right: 0rem;
   color: white;
 
   font-weight: 800;
@@ -858,9 +858,10 @@ the website, in dark theme
 }
 
 .footer__title{
-  font-size: var(--h1-font-size);
+  font-size: var(--big-font-size);
   margin-bottom: var(--mb-2);
   text-align: center;
+  font-weight: 700;
 }
 
 .footer__subscribe{
@@ -1015,7 +1016,7 @@ the website, in dark theme
     width: 160px;
     left: 50%;
     transform: translateX(-50%);
-    bottom: 458px;
+    bottom: 486px;
     z-index: 10;
   }
 
@@ -1086,10 +1087,10 @@ the website, in dark theme
 
 .overlay-image {
   position: absolute;
-  width: 160px;
+  width: 170px;
   left: 50%;
   transform: translateX(-50%);
-  bottom: 356px;
+  bottom: 522px;
   z-index: 10;
 }
 
@@ -1098,8 +1099,14 @@ the website, in dark theme
 }
 
 .footer__stores-buttons{
-  width: auto;
-  height: 4rem;    
+  width: 14rem;
+  height: 100%;   
+}
+
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-2);
+  text-align: center;
 }
 
 
@@ -1243,6 +1250,12 @@ the website, in dark theme
     margin-bottom: 16px;
   }
 
+  .footer__title {
+    font-size: 1.5rem;
+    margin-bottom: var(--mb-2);
+    text-align: center;
+}
+
   .footer__container{
     column-gap: 0rem;
   }
@@ -1271,20 +1284,20 @@ the website, in dark theme
 
   .overlay-image {
     position: absolute;
-    width: 160px;
+    width: 140px;
     left: 85%;
     transform: translateX(-50%);
-    bottom: 10px;
+    bottom: 40px;
     z-index: 10;
   }
 
   .footer__stores{
-    margin-bottom: 2.8rem;
+    margin-bottom: 0rem;
   }
   
   .footer__stores-buttons{
     width: auto;
-    height: 5rem;
+    height: 4rem;
     padding-right: 10px;    
   }
 
@@ -1453,15 +1466,16 @@ the website, in dark theme
 
   .overlay-image {
     position: absolute;
-    width: 180px;
+    width: 170px;
     left: 86%;
     transform: translateX(-50%);
-    bottom: 0px;
+    bottom: 50px;
     z-index: 10;
   }
 
   .footer__stores{
-    margin-bottom: 2.8rem;
+    margin-bottom: 0rem;
+    margin-top: 4rem;
   }
   
   .footer__stores-buttons{
@@ -1501,6 +1515,12 @@ the website, in dark theme
 .d-flex {
   display: flex !important;
   flex-direction: row;
+}
+
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-2);
+  text-align: center;
 }
 
 }
@@ -1549,7 +1569,7 @@ the website, in dark theme
 
   .overlay-image {
     position: absolute;
-    width: 320px;
+    width: 300px;
     left: 86%;
     transform: translateX(-50%);
     bottom: 46px;
