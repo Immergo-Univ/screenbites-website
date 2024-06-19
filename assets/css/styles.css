@@ -127,6 +127,22 @@ img{
     z-index: 10;
 }
 
+.row {
+  --bs-gutter-x: 0;
+  --bs-gutter-y: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: calc(var(--bs-gutter-y)* -1);
+  margin-right: calc(var(--bs-gutter-x)* -.5);
+  margin-left: calc(var(--bs-gutter-x)* -.5);
+}
+
+.carousel {
+  position: relative;
+  margin-top: 1.5rem;
+}
+
+
 
 /*=============== THEME ===============*/
 /*========== Variables Dark theme ==========*/
@@ -1208,8 +1224,7 @@ the website, in dark theme
 
   .home__container,
   .about__container,
-  .questions__container,
-  .contact__container,{
+  .questions__container{
     grid-template-columns: repeat(2, 1fr);
   }
   
@@ -1304,7 +1319,7 @@ the website, in dark theme
   .testi-img{
     margin-bottom: 46px;
     margin-top: 25px;
-    margin-right: px;
+    margin-right: 10px;
 
   }
 
@@ -1315,25 +1330,25 @@ the website, in dark theme
   }
 
   .testi-img .img-box{
-    max-width: 140px;
+    max-width: 100px;
   }
   .testi-img .circle{
-      height: 144px;
-      width: 144px;
+      height: 100px;
+      width: 100px;
   }
   .testi-img .img-box-inner{
-      border-radius: 0 0 150px 150px;
+      border-radius: 0 0 100px 100px;
   }
   .testi-img .img-box-inner img{
-      max-width: 140px;
+      max-width: 100px;
   }
 
   .col-md-4 {
     flex: 0 0 auto;
-    width: 33.33%;
+    width: 34%;
   }
 
-  .col-md-6 {
+  .col-md-8 {
     flex: 0 0 auto;
     width: 60%;
 }
@@ -1341,6 +1356,37 @@ the website, in dark theme
 .d-flex {
   display: flex !important;
   flex-direction: row;
+}
+
+.carousel {
+  position: relative;
+  margin-top: 0rem;
+}
+
+.testimonial-section .carousel-control-prev img, .testimonial-section .carousel-control-next img {
+    width: 10px;
+}
+
+.testimonial-section .carousel-control-next, .testimonial-section .carousel-control-prev {
+  position: relative;
+  height: 25px;
+  width: 25px;
+  background-color: #DD4598;
+  display: inline-flex;
+  border-radius: 50%;
+}
+
+.contact__container {
+  row-gap: 3.5rem;
+  grid-template-columns: repeat(1, 30% 70%);
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 4rem;
+  padding-right: 1.5rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 }
@@ -1509,7 +1555,12 @@ the website, in dark theme
 
 .col-md-4 {
   flex: 0 0 auto;
-  width: 33.33%;
+  width: 42%;
+}
+
+.col-md-8 {
+  flex: 0 0 auto;
+  width: 55%;
 }
 
 .d-flex {
@@ -1521,6 +1572,32 @@ the website, in dark theme
   font-size: 2rem;
   margin-bottom: var(--mb-2);
   text-align: center;
+}
+
+.testimonial-section .carousel-control-prev img, .testimonial-section .carousel-control-next img {
+  width: 15px;
+}
+
+.testimonial-section .carousel-control-next, .testimonial-section .carousel-control-prev {
+  position: relative;
+  height: 35px;
+  width: 35px;
+  background-color: #DD4598;
+  display: inline-flex;
+  border-radius: 50%;
+}
+
+.contact__container {
+  row-gap: 3.5rem;
+  grid-template-columns: repeat(1, 30% 70%);
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-left: 3rem;
+  padding-right: 1.5rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 }
@@ -1613,6 +1690,16 @@ the website, in dark theme
   padding: 4rem 0;
   grid-template-columns: repeat(3, 280px);
   gap: 4rem 6rem;
+}
+
+.col-md-4 {
+  flex: 0 0 auto;
+  width: 34%;
+}
+
+.col-md-8 {
+  flex: 0 0 auto;
+  width: 62%;
 }
 
   
