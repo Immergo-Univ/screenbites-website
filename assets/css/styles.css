@@ -1389,6 +1389,13 @@ the website, in dark theme
   margin-right: auto;
 }
 
+.product__title {
+  margin-bottom: .25rem;
+  text-align: center;
+  font-weight: 800;
+  font-size: var(--h3-font-size);
+}
+
 }
 
 /* For large devices */
@@ -1407,7 +1414,7 @@ the website, in dark theme
   }
 
   .home{
-    padding: 13rem 0 5rem;
+    padding: 13rem 0 6rem;
   }
   .home__img{
     width: 350px;
@@ -1609,9 +1616,13 @@ the website, in dark theme
     margin-right: auto;
   }
 
+  .home {
+    padding: 16rem 0 12rem;
+  }
+
   .home__social{
     position: absolute;
-    top: 18rem;
+    top: 24rem;
     right: -5rem;
     display: grid;
     justify-items: center;
@@ -1701,7 +1712,6 @@ the website, in dark theme
   flex: 0 0 auto;
   width: 62%;
 }
-
   
 
 }
