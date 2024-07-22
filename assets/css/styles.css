@@ -101,6 +101,7 @@ h1,h2,h3{
 
 ul{
   list-style: none;
+ font-size: var(--small-font-size);
 }
 
 a{
@@ -194,6 +195,10 @@ the website, in dark theme
   padding: 10rem 2rem 4rem;
 }
 
+.section__pp{
+  padding: 0rem 2rem 4rem;
+}
+
 .section__title,
 .section__title-center{
   font-size: var(--h1-font-size);
@@ -220,6 +225,13 @@ the website, in dark theme
   overflow: hidden; /*For animation*/
   position: relative;
   bottom: 56px;
+}
+
+.main__privacypolicy{
+  overflow: hidden; /*For animation*/
+  position: relative;
+  bottom: 56px;
+  top: 40px;
 }
 
 /*=============== HEADER ===============*/
@@ -718,9 +730,6 @@ the website, in dark theme
 }
 
 
-
-
-
 /*=============== FOOTER ===============*/
 .footer__container{
   row-gap: 0rem;
@@ -1065,6 +1074,7 @@ the website, in dark theme
   width: auto;
   height: 4rem;    
 }
+
 }
 
 @media screen and (min-width: 767px){
@@ -1124,6 +1134,10 @@ the website, in dark theme
 
   .section{
     padding: 1rem 0 2rem;
+  }
+
+  .section__pp{
+    padding: 5rem 5rem 5rem;
   }
 
   .section__title,
@@ -1303,6 +1317,12 @@ the website, in dark theme
   .section{
     padding: 1rem 0 0rem;
   }
+
+  .section__pp{
+    padding: 6rem 8rem 4rem;
+  }
+
+
   .section__title,
   .section__title-center{
     font-size: var(--h1-font-size);
@@ -1507,7 +1527,6 @@ the website, in dark theme
     order: 1;
     max-width: 360px;
 }
-
   
 }
 
@@ -1516,6 +1535,10 @@ the website, in dark theme
   .container{
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .section__pp{
+    padding: 6rem 22rem 4rem;
   }
 
   .home {
